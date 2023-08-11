@@ -2,5 +2,5 @@
 
 main(){
   printf("Algoritimos"); // Exibir o Nome
-  printf("\n Primeira aula"); // Exibir quebra de Linha
+  printf("\nPrimeira aula"); // Exibir quebra de Linha
 };
