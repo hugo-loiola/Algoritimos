@@ -2,10 +2,7 @@
 
 int main(void)
 {
-  int nota1;
-  int nota2;
-  int nota3;
-  int media;
+  int nota1, nota2, nota3, media;
 
   printf("Digite 3 Notas:\n");
 
@@ -20,13 +17,15 @@ int main(void)
 
   media = (nota1 + nota2 + nota3) / 3;
 
-  printf("Media: %d\n", media);
-
+  if (media == 8 || media == 9)
+  {
+    media++;
+  }
   if (media < 7)
   { // comparar a media com 7
     printf("Aluno Reprovado!\n");
   }
-  else if (media > 8)
+  else if (media >= 8)
   { // se for maior que 8 espetacular
     printf("Aluno Espetacular!\n");
   }
@@ -34,6 +33,8 @@ int main(void)
   { // se for maior que 7, aprovado
     printf("Aluno Aprovado!\n");
   }
+
+  printf("Media: %d\n", media);
 
   return 0;
 };
