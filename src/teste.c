@@ -19,7 +19,7 @@ int main(void)
 
   if (media == 8 || media == 9)
   {
-    printf("Bonus de Nota\n");
+    printf("Bonus de Nota + 1\n");
     media++;
   }
   if (media < 7)
