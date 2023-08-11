@@ -26,8 +26,14 @@ int main(void)
   { // comparar a media com 7
     printf("Aluno Reprovado!\n");
   }
+  else if (media > 8)
+  { // se for maior que 8 espetacular
+    printf("Aluno Espetacular!\n");
+  }
   else
   { // se for maior que 7, aprovado
     printf("Aluno Aprovado!\n");
   }
+
+  return 0;
 };
