@@ -36,3 +36,5 @@ if (media < 7)
     printf("Aluno Aprovado!\n");
   }
 ```
+
+### Projeto Calculadora

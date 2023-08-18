@@ -2,5 +2,8 @@
   "C_Cpp.errorSquiggles": "disabled",
   "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\gcc.exe",
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "ms-vscode.cpptools-extension-pack"
+  "editor.defaultFormatter": "ms-vscode.cpptools-extension-pack",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
 }
