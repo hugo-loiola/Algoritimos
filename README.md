@@ -37,4 +37,81 @@ if (media < 7)
   }
 ```
 
-### Projeto Calculadora
+## Projeto Calculadora
+
+### Operadores Aritméticos
+
+Operador   | Descrição | 
+:------:  | :------:
+'+'       | Soma
+'-'       | Subtração
+'*'       | Multiplição
+'/'       | Divisão Inteira
+'%'       | Modulo
+'++'      | Incremento
+'--'      | Decremento
+
+```c
+x = n++;    // atribui e depois incrementa
+y = ++n;    // incrementa e depois atribui 
+```
+
+### Operadores Relacionais
+
+- Conside que A=10 e B=20.
+
+<table>
+  <tr>
+    <th>Operador</th>
+    <th>Descrição</th>
+    <th>Exemplo</th>
+    <th>Resultado</th>
+  </tr>
+  <tr>
+    <td>==</td>
+    <td>Igual</td>
+    <td>A == B</td>
+    <td>False</td>
+  </tr>
+   <tr>
+    <td>!=</td>
+    <td>Diferente</td>
+    <td>A != B</td>
+    <td>True</td>
+  </tr>
+   <tr>
+    <td> > </td>
+    <td>Maior que</td>
+    <td>A > B</td>
+    <td>False</td>
+  </tr>
+   <tr>
+    <td> < </td>
+    <td>Menor que</td>
+    <td>A < B</td>
+    <td>True</td>
+  </tr>
+   <tr>
+    <td> >= </td>
+    <td>Maior ou Igual</td>
+    <td>A >= B</td>
+    <td>False</td>
+  </tr>
+   <tr>
+    <td> <= </td>
+    <td>Menor ou Igual</td>
+    <td>A <= B</td>
+    <td>True</td>
+  </tr>
+</table>
+
+### Operadores Lógicos
+- Considere que A=TRUE e B=FALSE.
+<table>
+  <tr>
+    <th>Operdor</th>
+    <th>Descrição</th>
+    <th>Exemplo</th>
+    <th>Resultado</th>
+  </tr>
+</table>
