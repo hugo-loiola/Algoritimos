@@ -13,7 +13,7 @@
 
 ### Problemas
 
-- [ ] [Área do círculo](https://www.beecrowd.com.br/judge/pt/problems/view/1002) 
+- [x] [Área do círculo](https://www.beecrowd.com.br/judge/pt/problems/view/1002) 
 - [ ] [Produto Simples](https://www.beecrowd.com.br/judge/pt/problems/view/1004)
 - [ ] [Diferença](https://www.beecrowd.com.br/judge/pt/problems/view/1007)
 - [ ] [Consumo](https://www.beecrowd.com.br/judge/pt/problems/view/1014)
