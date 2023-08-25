@@ -15,8 +15,8 @@
 
 - [x] [Área do círculo](https://www.beecrowd.com.br/judge/pt/problems/view/1002) 
 - [x] [Produto Simples](https://www.beecrowd.com.br/judge/pt/problems/view/1004)
-- [ ] [Diferença](https://www.beecrowd.com.br/judge/pt/problems/view/1007)
-- [ ] [Consumo](https://www.beecrowd.com.br/judge/pt/problems/view/1014)
+- [x] [Diferença](https://www.beecrowd.com.br/judge/pt/problems/view/1007)
+- [x] [Consumo](https://www.beecrowd.com.br/judge/pt/problems/view/1014)
 - [ ] [Cédulas](https://www.beecrowd.com.br/judge/pt/problems/view/1018)
 - [ ] [Conversão de Tempo](https://www.beecrowd.com.br/judge/pt/problems/view/1019)
 - [ ] [Idade em Dias](https://www.beecrowd.com.br/judge/pt/problems/view/1020)
