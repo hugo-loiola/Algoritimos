@@ -2,14 +2,14 @@
 
 int main()
 {
-  int n, s, m, h;
+  int n, segundos, minutos, horas;
   scanf("%d", &n);
 
-  h = n / 3600;
-  m = (n % 3600) / 60;
-  s = (n % 3600) % 60;
+  horas = n / 3600;
+  minutos = (n % 3600) / 60;
+  segundos = (n % 3600) % 60;
 
-  printf("%d:%d:%d\n", h, m, s);
+  printf("%d:%d:%d\n", horas, minutos, segundos);
 
   return 0;
 }
