@@ -1,25 +1,33 @@
 #include <stdio.h>
-#include <iostream>
-
-using namespace std;
 
 int main()
 {
-  double preco[10], valor;
-  scanf("%lf", &valor);
+  char *meses[12] = {
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December",
+  };
 
-  preco[0] = 10.5;
-  preco[1] = 0.5;
-  preco[2] = 100;
-  preco[3] = 500;
+  int numeroMes;
+  scanf("%d", &numeroMes);
 
-  for (int i = 0; i <= 9; i++)
+  if (numeroMes >= 1 && numeroMes <= 12)
   {
-    if (preco[i] == valor)
-    {
-      cout << preco[i] << endl;
-    }
+    printf("%s\n", meses[numeroMes - 1]);
+  }
+  else
+  {
+    printf("Coloque um valor entre 1 e 12!\n");
   }
 
   return 0;
-};
+}
