@@ -17,7 +17,7 @@
 - [x] [Produto Simples](https://www.beecrowd.com.br/judge/pt/problems/view/1004)
 - [x] [Diferença](https://www.beecrowd.com.br/judge/pt/problems/view/1007)
 - [x] [Consumo](https://www.beecrowd.com.br/judge/pt/problems/view/1014)
-- [ ] [Cédulas](https://www.beecrowd.com.br/judge/pt/problems/view/1018)
+- [x] [Cédulas](https://www.beecrowd.com.br/judge/pt/problems/view/1018)
 - [x] [Conversão de Tempo](https://www.beecrowd.com.br/judge/pt/problems/view/1019)
 - [x] [Idade em Dias](https://www.beecrowd.com.br/judge/pt/problems/view/1020)
 - [x] [Mês](https://www.beecrowd.com.br/judge/pt/problems/view/1052)
