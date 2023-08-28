@@ -15,14 +15,14 @@ int main()
       "October",
       "November",
       "December",
-  };
+  }; // Array dos meses
 
   int numeroMes;
   scanf("%d", &numeroMes);
-
+  // Se o número inserido for entre 1 e 12, faça o calculo. Se não exiba a mensagem de erro
   if (numeroMes >= 1 && numeroMes <= 12)
   {
-    printf("%s\n", meses[numeroMes - 1]);
+    printf("%s\n", meses[numeroMes - 1]); // array[valorPosicao]
   }
   else
   {

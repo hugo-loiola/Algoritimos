@@ -7,7 +7,7 @@ int main()
   scanf("%d\n", &a);
   scanf("%d", &b);
 
-  PROD = a * b;
+  PROD = a * b; // Multiplicar
 
   printf("PROD = %d\n", PROD);
 
