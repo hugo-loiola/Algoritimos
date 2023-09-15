@@ -1,4 +1,4 @@
-# Lista de exercícios 1
+# Lista de exercícios 2
 
 ### Instruções iniciais
 
@@ -11,7 +11,7 @@
 
 ### Problemas
 
-- [] [O Maior](https://www.beecrowd.com.br/judge/pt/problems/view/1013)
+- [x] [O Maior](https://www.beecrowd.com.br/judge/pt/problems/view/1013)
 - [] [PUM](https://www.beecrowd.com.br/judge/pt/problems/view/1142)
 - [] [Números pares](https://www.beecrowd.com.br/judge/pt/problems/view/1059)
 - [] [Positivos e Média](https://www.beecrowd.com.br/judge/pt/problems/view/1064)
