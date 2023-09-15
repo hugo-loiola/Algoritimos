@@ -14,7 +14,7 @@
 - [x] [O Maior](https://www.beecrowd.com.br/judge/pt/problems/view/1013)
 - [] [PUM](https://www.beecrowd.com.br/judge/pt/problems/view/1142)
 - [x] [Números pares](https://www.beecrowd.com.br/judge/pt/problems/view/1059)
-- [] [Positivos e Média](https://www.beecrowd.com.br/judge/pt/problems/view/1064)
+- [x] [Positivos e Média](https://www.beecrowd.com.br/judge/pt/problems/view/1064)
 - [] [Soma de Impares Consecutivos I](https://www.beecrowd.com.br/judge/pt/problems/view/1071)
 - [] [Tabuada](https://www.beecrowd.com.br/judge/pt/problems/view/1078)
 - [] [Identificando o Chá](https://www.beecrowd.com.br/judge/pt/problems/view/2006)
