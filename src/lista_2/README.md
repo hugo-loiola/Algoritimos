@@ -12,10 +12,10 @@
 ### Problemas
 
 - [x] [O Maior](https://www.beecrowd.com.br/judge/pt/problems/view/1013)
-- [] [PUM](https://www.beecrowd.com.br/judge/pt/problems/view/1142)
+- [x] [PUM](https://www.beecrowd.com.br/judge/pt/problems/view/1142)
 - [x] [Números pares](https://www.beecrowd.com.br/judge/pt/problems/view/1059)
 - [x] [Positivos e Média](https://www.beecrowd.com.br/judge/pt/problems/view/1064)
-- [] [Soma de Impares Consecutivos I](https://www.beecrowd.com.br/judge/pt/problems/view/1071)
+- [x] [Soma de Impares Consecutivos I](https://www.beecrowd.com.br/judge/pt/problems/view/1071)
 - [x] [Tabuada](https://www.beecrowd.com.br/judge/pt/problems/view/1078)
 - [x] [Identificando o Chá](https://www.beecrowd.com.br/judge/pt/problems/view/2006)
 - [x] [Média 3](https://www.beecrowd.com.br/judge/pt/problems/view/1040)
