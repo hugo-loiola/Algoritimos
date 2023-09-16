@@ -18,7 +18,7 @@
 - [] [Soma de Impares Consecutivos I](https://www.beecrowd.com.br/judge/pt/problems/view/1071)
 - [x] [Tabuada](https://www.beecrowd.com.br/judge/pt/problems/view/1078)
 - [x] [Identificando o Chá](https://www.beecrowd.com.br/judge/pt/problems/view/2006)
-- [] [Média 3](https://www.beecrowd.com.br/judge/pt/problems/view/1040)
+- [x] [Média 3](https://www.beecrowd.com.br/judge/pt/problems/view/1040)
 
 ### Envio das soluções
 
