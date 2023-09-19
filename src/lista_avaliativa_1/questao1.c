@@ -18,16 +18,15 @@ int main()
     if (ano == olimpiadasVeraoAnos[i])
     {
       printf("Os Jogos Olimpicos de Verao ocorreram no ano de %d.\n", ano);
+      return 0;
     }
     else if (ano == copaMundoAnos[i])
     {
       printf("A Copa do Mundo de Futebol ocorreu no ano de %d.\n", ano);
-    }
-    else
-    {
-      printf("Nao houve Jogos Olimpicos de Verao ou Copa do Mundo no ano de %d.\n", ano);
+      return 0;
     }
   }
+  printf("Nao houve Jogos Olimpicos de Verao ou Copa do Mundo no ano de %d.\n", ano);
 
   return 0;
 }
