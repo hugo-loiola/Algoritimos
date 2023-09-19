@@ -2,7 +2,7 @@
 
 int main()
 {
-  int ano;
+  int ano, i;
 
   int copaMundoAnos[22] = {1930, 1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970, 1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022};
 
@@ -13,18 +13,17 @@ int main()
 
   scanf("%d", &ano);
   // Percorrendo o array
-  for (int i = 0; i <= tamanhoArray; i++)
+  for (i = 0; i <= tamanhoArray; i++)
   {
     if (ano == olimpiadasVeraoAnos[i])
     {
-      printf("%d\n", olimpiadasVeraoAnos[i]);
+      
       printf("Os Jogos Olimpicos de Verao ocorreram no ano de %d.\n", ano);
 
       return 0;
     }
-    else if (ano == copaMundoAnos[i])
+    else if (i <= 21 &&	ano == copaMundoAnos[i])
     {
-      printf("%d\n", copaMundoAnos[i]);
       printf("A Copa do Mundo de Futebol ocorreu no ano de %d.\n", ano);
       return 0;
     }
