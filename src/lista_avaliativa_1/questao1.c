@@ -17,12 +17,10 @@ int main()
   {
     if (ano == olimpiadasVeraoAnos[i])
     {
-      
       printf("Os Jogos Olimpicos de Verao ocorreram no ano de %d.\n", ano);
-
       return 0;
     }
-    else if (i <= 21 &&	ano == copaMundoAnos[i])
+    else if (i <= 21 && ano == copaMundoAnos[i])
     {
       printf("A Copa do Mundo de Futebol ocorreu no ano de %d.\n", ano);
       return 0;
