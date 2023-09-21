@@ -3,7 +3,7 @@
 int main()
 {
   char tipo;
-  float salario;
+  double salario;
 
   scanf("%c", &tipo);
   scanf("%f", &salario);
