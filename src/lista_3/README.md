@@ -15,7 +15,7 @@ Online Judge) para treinar a Linguagem de Programação C
 - [] [Fibonacci em Vetor](https://www.beecrowd.com.br/judge/pt/problems/view/1176)
 - [x] [Menor e Posição](https://www.beecrowd.com.br/judge/pt/problems/view/1180)
 - [] [Troca em Vetor I](https://www.beecrowd.com.br/judge/pt/problems/view/1175)
-- [] [Linha na Matriz](https://www.beecrowd.com.br/judge/pt/problems/view/1181)
+- [x] [Linha na Matriz](https://www.beecrowd.com.br/judge/pt/problems/view/1181)
 - [] [Matriz Quadrada I](https://www.beecrowd.com.br/judge/pt/problems/view/1435)
 - [] [Acima da Diagonal Principal](https://www.beecrowd.com.br/judge/pt/problems/view/1183)
 - [] [Matriz Quadrada IV](https://www.beecrowd.com.br/judge/pt/problems/view/1827)
