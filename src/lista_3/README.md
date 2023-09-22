@@ -10,7 +10,7 @@ Online Judge) para treinar a Linguagem de Programação C
 ### Problemas
 
 - [] [Substituição em Vetor I](https://www.beecrowd.com.br/judge/pt/problems/view/1172)
-- [] [Preenchimento de Vetor I](https://www.beecrowd.com.br/judge/pt/problems/view/1173)
+- [x] [Preenchimento de Vetor I](https://www.beecrowd.com.br/judge/pt/problems/view/1173)
 - [] [Seleçao em Vetor I](https://www.beecrowd.com.br/judge/pt/problems/view/1174)
 - [] [Fibonacci em Vetor](https://www.beecrowd.com.br/judge/pt/problems/view/1176)
 - [] [Menor e Posição](https://www.beecrowd.com.br/judge/pt/problems/view/1180)
