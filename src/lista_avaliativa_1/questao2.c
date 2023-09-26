@@ -2,18 +2,17 @@
 
 int main()
 {
-  unsigned int numero;
-  int numeroOriginal, remainder, soma = 0;
+  int numero, numeroOriginal, remainder, soma = 0;
 
-  scanf("%u", &numero);
+  scanf("%d", &numero);
 
   if (numero % 2 == 0)
   {
-    printf("%u eh par\n", numero);
+    printf("%d eh par\n", numero);
   }
   else
   {
-    printf("%u eh impar\n", numero);
+    printf("%d eh impar\n", numero);
   }
 
   numeroOriginal = numero;
