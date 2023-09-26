@@ -6,6 +6,13 @@ int main()
   scanf("%u", &A);
   scanf("%u", &B);
 
+  do
+  {
+    printf("0 nao eh multiplo de nenhum número\n");
+    scanf("%u", &A);
+    scanf("%u", &B);
+  } while (A == 0 || B == 0);
+
   if (A == B)
   {
     printf("Os valores lidos sao iguais\n");
