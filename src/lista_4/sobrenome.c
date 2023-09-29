@@ -9,9 +9,11 @@ int main()
   // Ler o sobrenome
   for (int i = 0; i < numEntradas; i++)
   {
-    fgets(sobrenome, 42, stdin);
+    // fgets(sobrenome, 42, stdin);
+    scanf("%s", sobrenome);
+    consoantesConsecutivas = 0;
 
-    for (int posicao = 0; posicao < strlen(sobrenome); posicao++)
+    for (unsigned int posicao = 0; posicao < strlen(sobrenome); posicao++)
     {
       char letra = sobrenome[posicao];
       // Checar letra por letra se é volgal ou não
@@ -22,7 +24,6 @@ int main()
         if (consoantesConsecutivas >= 3)
         {
           printf("%s nao eh facil\n", sobrenome);
-          consoantesConsecutivas = 0;
           break;
         }
       }
@@ -30,6 +31,10 @@ int main()
       {
         consoantesConsecutivas = 0;
       }
+    }
+    if (consoantesConsecutivas <= 2)
+    {
+      printf("%s eh facil\n", sobrenome);
     }
   }
 
