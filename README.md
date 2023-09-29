@@ -37,10 +37,9 @@ if (media < 7)
   }
 ```
 
-## Projeto Calculadora
-
 ### Operadores Aritméticos
-- Conside que A=10 e B=20.
+
+- Considere que A=10 e B=20.
 <table>
  <tr>
     <th>Operador</th>
@@ -94,12 +93,12 @@ if (media < 7)
 
 ```c
 x = n++;    // atribui e depois incrementa
-y = ++n;    // incrementa e depois atribui 
+y = ++n;    // incrementa e depois atribui
 ```
 
 ### Operadores Relacionais
 
-- Conside que A=10 e B=20.
+- Considere que A=10 e B=20.
 
 <table>
   <tr>
@@ -147,6 +146,7 @@ y = ++n;    // incrementa e depois atribui
 </table>
 
 ### Operadores Lógicos
+
 - Considere que A=TRUE e B=FALSE.
 <table>
   <tr>
