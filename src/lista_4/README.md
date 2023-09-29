@@ -2,7 +2,7 @@
 
 ### Instruções iniciais
 
-- Crie uma conta na BeeCrowd (https://www.beecrowd.com.br/judge/pt/register). A BeeCrowd
+- Crie uma conta na [BeeCrowd](https://www.beecrowd.com.br/judge/pt/register). A BeeCrowd
   (anteriormente URI) é uma plataforma para resolução de problemas de programação, de tópicos
   básicos a complexos.
 - Após criar a conta, acesse cada um dos problemas abaixo e envie sua solução em C. Em caso de
@@ -11,13 +11,13 @@
 
 ### Problemas
 
-- Problema com a calculadora: https://www.beecrowd.com.br/judge/pt/problems/view/2694
-- Mjölnir: https://www.beecrowd.com.br/judge/pt/problems/view/1865
-- Zero vale Zero: https://www.beecrowd.com.br/judge/pt/problems/view/1871
-- De Quem é a Vez?: https://www.beecrowd.com.br/judge/pt/problems/view/1914
-- Árvore de Natal: https://www.beecrowd.com.br/judge/pt/problems/view/1768
-- Conversa Internacional: https://www.beecrowd.com.br/judge/pt/problems/view/1581
-- Sobrenome Não é Fácil: https://www.beecrowd.com.br/judge/pt/problems/view/3358
+- [Problema com a calculadora](https://www.beecrowd.com.br/judge/pt/problems/view/2694)
+- [Mjölnir](https://www.beecrowd.com.br/judge/pt/problems/view/1865)
+- [Zero vale Zero](https://www.beecrowd.com.br/judge/pt/problems/view/1871)
+- [De Quem é a Vez?](https://www.beecrowd.com.br/judge/pt/problems/view/1914)
+- [Árvore de Natal](https://www.beecrowd.com.br/judge/pt/problems/view/1768)
+- [Conversa Internacional](https://www.beecrowd.com.br/judge/pt/problems/view/1581)
+- [Sobrenome Não é Fácil](https://www.beecrowd.com.br/judge/pt/problems/view/3358)
 
 ### Envio das soluções
 
