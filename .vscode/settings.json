@@ -12,5 +12,8 @@
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "cmake.configureOnOpen": false
+  "cmake.configureOnOpen": false,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
