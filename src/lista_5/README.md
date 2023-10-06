@@ -19,6 +19,8 @@ com o uso de funções.
 - Média 3: https://www.beecrowd.com.br/judge/pt/problems/view/1040
 - Fibonacci em Vetor: https://www.beecrowd.com.br/judge/pt/problems/view/1176
 - Menor e Posição: https://www.beecrowd.com.br/judge/pt/problems/view/1180
-  Envio das soluções
-  Após resolver os problemas e ter tido as soluções aceitas pela plataforma, salve os códigos em uma pasta de
-  um repositório PÚBLICO do GitHub e envie o link para essa pasta em "Envio e Conclusão".
+
+## Envio das soluções
+
+Após resolver os problemas e ter tido as soluções aceitas pela plataforma, salve os códigos em uma pasta de
+um repositório PÚBLICO do GitHub e envie o link para essa pasta em "Envio e Conclusão".
