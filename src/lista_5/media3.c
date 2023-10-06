@@ -2,7 +2,7 @@
 
 int main()
 {
-  float notas[4], peso[4], soma = 0;
+  float notas[4], peso[4] = {2, 3, 4, 1}, soma = 0;
   // Ler as notas
   for (int i = 0; i < 4; i++)
   {
@@ -14,21 +14,35 @@ int main()
     soma += notas[i] * peso[i];
   }
 
-  float media = soma / 10;
+  float mediaInicial = soma / 10;
 
-  printf("Media: %.2f\n", media);
+  printf("Media: %.1f\n", mediaInicial);
 
-  if (media < 5)
+  if (mediaInicial < 5)
   {
-    printf("Aluno reprovado\n");
+    printf("Aluno reprovado.\n");
   }
-  else if (media >= 7)
+  else if (mediaInicial >= 7)
   {
-    printf("Aluno aprovado\n");
+    printf("Aluno aprovado.\n");
   }
   else
   {
-    printf("Aluno de recuperacao");
+    printf("Aluno em exame.\n");
+    float notaExame;
+    scanf("%f", &notaExame);
+    printf("Nota do exame: %.1f\n", notaExame);
+
+    float mediaFinal = (notaExame + mediaInicial) / 2;
+    if (mediaFinal >= 5)
+    {
+      printf("Aluno aprovado.\n");
+    }
+    else
+    {
+      printf("Aluno reprovado.\n");
+    }
+    printf("Media final: %.1f\n", mediaFinal);
   }
 
   return 0;
