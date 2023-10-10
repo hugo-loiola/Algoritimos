@@ -1,48 +1,58 @@
 #include <stdio.h>
+#include <string.h>
+
+char *ehParOuImpar(int valor)
+{
+  if (valor % 2 == 0)
+  { // se valor for par, retorna a string "PAR"
+    return "PAR";
+  }
+  else
+  { // senão, retorna a string "IMPAR"
+    return "IMPAR";
+  }
+}
 
 int main()
 {
-  float notas[4], peso[4] = {2, 3, 4, 1}, soma = 0;
-  // Ler as notas
-  for (int i = 0; i < 4; i++)
-  {
-    scanf("%f", &notas[i]);
-  }
-  // Somar e usar o peso das notas
-  for (int i = 0; i < 4; i++)
-  {
-    soma += notas[i] * peso[i];
-  }
+  int numEntradas;
+  char nome1[101], nome2[101], escolha1[6], escolha2[6];
+  int valor1, valor2;
+  scanf("%d", &numEntradas);
 
-  float mediaInicial = soma / 10;
-
-  printf("Media: %.1f\n", mediaInicial);
-
-  if (mediaInicial < 5)
+  for (int i = 0; i < numEntradas; i++)
   {
-    printf("Aluno reprovado.\n");
-  }
-  else if (mediaInicial >= 7)
-  {
-    printf("Aluno aprovado.\n");
-  }
-  else
-  {
-    printf("Aluno em exame.\n");
-    float notaExame;
-    scanf("%f", &notaExame);
-    printf("Nota do exame: %.1f\n", notaExame);
+    scanf("%s", nome1);
+    scanf("%s", escolha1);
+    scanf("%s", nome2);
+    scanf("%s", escolha2);
+    scanf("%d", &valor1);
+    scanf("%d", &valor2);
 
-    float mediaFinal = (notaExame + mediaInicial) / 2;
-    if (mediaFinal >= 5)
+    int soma = valor1 + valor2;
+    char somaEhParOuImpar[6]; // "PAR" ou "IMPAR"
+
+    // somaEhParOuImpar = ehParOuImpar(soma)
+    strcpy(somaEhParOuImpar, ehParOuImpar(soma)); // copiando retorno da função para variável somaEhParOuImpar
+
+    if (strcmp(somaEhParOuImpar, escolha1) == 0)
     {
-      printf("Aluno aprovado.\n");
+      printf("%s\n", nome1);
     }
     else
     {
-      printf("Aluno reprovado.\n");
+      // pessoa 2 ganha se
+      // soma é par e pessoa 1 colocou ímpar OU
+      // soma é ímpar e pessoa 1 colocou par
+      printf("%s\n", nome2);
     }
-    printf("Media final: %.1f\n", mediaFinal);
+
+    // if de cima substitui if... else if abaixo
+    /*
+    if(strcmp(somaEhParOuImpar, "PAR") == 0 && strcmp(escolha1, "PAR") == 0){ // soma deu par
+        printf("%s\n", nome1);
+    } else if( strcmp(somaEhParOuImpar, "IMPAR") == 0 && strcmp(escolha1, "IMPAR") == 0){ // soma deu ímpar
+        printf("%s\n", nome1);*/
   }
 
   return 0;
