@@ -2,49 +2,30 @@
 
 int main()
 {
-  unsigned int A, B;
-  scanf("%u", &A);
-  scanf("%u", &B);
+  int a, b, maior, menor;
 
-  do
-  {
-    printf("0 nao eh multiplo de nenhum número\n");
-    scanf("%u", &A);
-    scanf("%u", &B);
-  } while (A == 0 || B == 0);
+  scanf("%d", &a);
+  scanf("%d", &b);
 
-  if (A == B)
+  if (a == b)
   {
     printf("Os valores lidos sao iguais\n");
   }
-  // Se o primeiro numero for Maior que o segundo entra aqui
-  else if (A > B)
+  else
   {
-    printf("%u eh maior que %u\n", A, B);
-    // Checar se é multiplo
-    if (A % B == 0)
-    {
-      printf("%u eh multiplo de %u\n", A, B);
-    }
-    else
-    {
-      printf("%u nao eh multiplo de %u\n", A, B);
-    }
-  }
-  // Se o segundo numero for Maior que o primeiro entra aqui
-  else if (A < B)
-  {
-    printf("%u eh maior que %u\n", B, A);
-    // Checar se é multiplo
-    if (B % A == 0)
-    {
-      printf("%u eh multiplo de %u\n", B, A);
-    }
-    else
-    {
-      printf("%u nao eh multiplo de %u\n", B, A);
-    }
-  }
+    maior = (a > b) ? a : b;
+    menor = (a < b) ? a : b;
 
+    printf("%d eh maior que %d\n", maior, menor);
+
+    if (menor != 0 && maior % menor == 0)
+    {
+      printf("%d eh multiplo de %d\n", maior, menor);
+    }
+    else
+    {
+      printf("%d nao eh multiplo de %d\n", maior, menor);
+    }
+  }
   return 0;
 }

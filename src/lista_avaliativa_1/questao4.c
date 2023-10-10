@@ -11,15 +11,15 @@ int main()
   switch (tipo)
   {
   case 'a':
-    printf("R$ %.2lf\n", salario = salario * 1.05);
+    printf("R$ %.2lf\n", salario * 1.05);
     break;
 
   case 'b':
-    printf("R$ %.2lf\n", salario = salario * 1.07);
+    printf("R$ %.2lf\n", salario * 1.07);
     break;
 
   case 'c':
-    printf("R$ %.2lf\n", salario = salario * 1.08);
+    printf("R$ %.2lf\n", salario * 1.08);
     break;
 
   default:

@@ -2,7 +2,7 @@
 
 int main()
 {
-  int senha, teste;
+  int senha, teste = -1;
 
   scanf("%d", &senha);
   printf("senha cadastrada: %d\n", senha);
@@ -13,9 +13,8 @@ int main()
     if (teste == senha)
     {
       printf("senha valida!\n");
-      return 0;
+      break;
     }
-
     printf("senha invalida!\n");
   };
 
