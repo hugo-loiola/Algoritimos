@@ -18,17 +18,17 @@ int main()
   }
 
   // Leitura da segunda matriz (B)
-  for (int i = 0; i < 4; i++)
+  for (int linha = 0; linha < 4; linha++)
   {
     for (int coluna = 0; coluna < 4; coluna++)
     {
-      scanf("%d", &matrizB[i][coluna]);
+      scanf("%d", &matrizB[linha][coluna]);
     }
   }
 
   // Leitura da operação a ser realizada
   char operacao[10];
-  gets(operacao);
+  scanf("%s", operacao);
   // Realizar a operação e preencher a matriz resultado
   if (strcmp(operacao, "soma") == 0)
   {
