@@ -45,12 +45,12 @@ int main()
       }
     }
     printf("\n");
-
+    // Atualizar o conjunto
     for (int i = 0; i < novoTamanho; i++)
     {
       conjunto[i] = novoConjunto[i];
     }
-
+    // Atualizar a variavel tamanho
     tamanho = novoTamanho;
   }
 
