@@ -23,6 +23,7 @@ typedef struct time
 
 int main()
 {
+  // CÓDIGO INCOMPLETO, NAO PRECISA CORRIGIR!
   Time time1, time2;
   Jogador jogadores[22];
 

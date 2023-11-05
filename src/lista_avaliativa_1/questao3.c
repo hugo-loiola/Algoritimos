@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main()
-{ // CÓDIGO INCOMPLETO, NAO PRECISA CORRIGIR!
+{
   int senha, teste = -1;
 
   scanf("%d", &senha);
