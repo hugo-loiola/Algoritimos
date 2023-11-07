@@ -53,13 +53,14 @@ int main()
 
   else if (strcmp(operacao, "mult") == 0)
   {
-    for (int linha = 0; linha < 4; linha++)
+    for (int i = 0; i < 4; i++)
     {
-      for (int coluna = 0; coluna < 4; coluna++)
+      for (int j = 0; j < 4; j++)
       {
+        resultado[i][j] = 0;
         for (int k = 0; k < 4; k++)
         {
-          resultado[linha][coluna] = resultado[linha][coluna] + matrizA[linha][k] * matrizB[k][coluna];
+          resultado[i][j] += matrizA[i][k] * matrizB[k][j];
         }
       }
     }
@@ -68,7 +69,7 @@ int main()
   // Imprimir a matriz resultante formatada
   for (int linha = 0; linha < 4; linha++)
   {
-    printf("\n");
+
     for (int coluna = 0; coluna < 4; coluna++)
     {
       printf("%4d", resultado[linha][coluna]);
