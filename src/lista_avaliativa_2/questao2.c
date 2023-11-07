@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+// Criar a classe Jogador
 typedef struct jogador
 {
   char nome[31];
@@ -10,49 +11,53 @@ typedef struct jogador
 
 int main()
 {
-  struct Jogador time[11];
+  Jogador time[11];
   float forcaTotal[2] = {0.0, 0.0};
-  char nomeTimes[2][31];
+  char nomeTime[2][31];
+  int times = 0;
 
-  for (int nome = 0; nome < 2; nome++)
+  while (times < 2)
   {
-    scanf(" %30[^\n]", nomeTime[nome]);
-    nomeTime[z][strcspn(nomeTime[z], "\n")] = '\0';
+    scanf(" %30[^\n]", nomeTime[times]);
+    // Tirar o espaço vazio do nome do time
+    nomeTime[times][strcspn(nomeTime[times], "\n")] = '\0';
 
-    for (int i = 0; i < 11; i++)
+    for (int jogador = 0; jogador < 11; jogador++)
     {
-      scanf(" %30[^;]; %c; %d", time[i].nome, &time[i].posicao, &time[i].forca);
+      // Receber o nome, posicao e força do jogador separado por ponto virgula
+      scanf(" %30[^;]; %c; %d", time[jogador].nome, &time[jogador].posicao, &time[jogador].forca);
     }
 
-    for (int i = 0; i < 11; i++)
+    for (int jogador = 0; jogador < 11; jogador++)
     {
-      if (time[i].posicao == 'G')
+      if (time[jogador].posicao == 'G')
       {
-        forcaTotal[z] += 8 * time[i].forca;
+        forcaTotal[times] = forcaTotal[times] + 8 * time[jogador].forca;
       }
-      else if (time[i].posicao == 'L')
+      else if (time[jogador].posicao == 'L')
       {
-        forcaTotal[z] += 10 * time[i].forca;
+        forcaTotal[times] = forcaTotal[times] + 10 * time[jogador].forca;
       }
-      else if (time[i].posicao == 'Z')
+      else if (time[jogador].posicao == 'Z')
       {
-        forcaTotal[z] += 5 * time[i].forca;
+        forcaTotal[times] = forcaTotal[times] + 5 * time[jogador].forca;
       }
-      else if (time[i].posicao == 'V')
+      else if (time[jogador].posicao == 'V')
       {
-        forcaTotal[z] += 8 * time[i].forca;
+        forcaTotal[times] = forcaTotal[times] + 8 * time[jogador].forca;
       }
-      else if (time[i].posicao == 'M')
+      else if (time[jogador].posicao == 'M')
       {
-        forcaTotal[z] += 11 * time[i].forca;
+        forcaTotal[times] = forcaTotal[times] + 11 * time[jogador].forca;
       }
-      else if (time[i].posicao == 'A')
+      else if (time[jogador].posicao == 'A')
       {
-        forcaTotal[z] += 12 * time[i].forca;
+        forcaTotal[times] = forcaTotal[times] + 12 * time[jogador].forca;
       }
     }
 
-    forcaTotal[z] = forcaTotal[z] / 100.0;
+    forcaTotal[times] = forcaTotal[times] / 100.0;
+    times++;
   }
 
   printf("%s: %.2f de forca\n", nomeTime[0], forcaTotal[0]);
