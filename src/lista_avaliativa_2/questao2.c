@@ -8,28 +8,64 @@ typedef struct jogador
   int forca;
 } Jogador;
 
-typedef struct time
-{
-  char nome[31];
-  int numGoleiros;
-  int numLaterais;
-  int numZagueiros;
-  int numVolantes;
-  int numMeias;
-  int numAtacantes;
-  double forcaPonderada;
-
-} Time;
-
 int main()
 {
-  // CÓDIGO INCOMPLETO, NAO PRECISA CORRIGIR!
-  Time time1, time2;
-  Jogador jogadores[22];
+  struct Jogador time[11];
+  float forcaTotal[2] = {0.0, 0.0};
+  char nomeTimes[2][31];
 
-  // Leitura do nome dos times
-  fgets(time1.nome, 31, stdin);
-  time1.nome[strcspn(time1.nome, "\n")] = '\0';
+  for (int nome = 0; nome < 2; nome++)
+  {
+    scanf(" %30[^\n]", nomeTime[nome]);
+    nomeTime[z][strcspn(nomeTime[z], "\n")] = '\0';
+
+    for (int i = 0; i < 11; i++)
+    {
+      scanf(" %30[^;]; %c; %d", time[i].nome, &time[i].posicao, &time[i].forca);
+    }
+
+    for (int i = 0; i < 11; i++)
+    {
+      if (time[i].posicao == 'G')
+      {
+        forcaTotal[z] += 8 * time[i].forca;
+      }
+      else if (time[i].posicao == 'L')
+      {
+        forcaTotal[z] += 10 * time[i].forca;
+      }
+      else if (time[i].posicao == 'Z')
+      {
+        forcaTotal[z] += 5 * time[i].forca;
+      }
+      else if (time[i].posicao == 'V')
+      {
+        forcaTotal[z] += 8 * time[i].forca;
+      }
+      else if (time[i].posicao == 'M')
+      {
+        forcaTotal[z] += 11 * time[i].forca;
+      }
+      else if (time[i].posicao == 'A')
+      {
+        forcaTotal[z] += 12 * time[i].forca;
+      }
+    }
+
+    forcaTotal[z] = forcaTotal[z] / 100.0;
+  }
+
+  printf("%s: %.2f de forca\n", nomeTime[0], forcaTotal[0]);
+  printf("%s: %.2f de forca\n", nomeTime[1], forcaTotal[1]);
+
+  if (forcaTotal[0] > forcaTotal[1])
+  {
+    printf("%s eh mais forte\n", nomeTime[0]);
+  }
+  else
+  {
+    printf("%s eh mais forte\n", nomeTime[1]);
+  }
 
   return 0;
 }
