@@ -8,5 +8,6 @@ int main()
   printf("valor de p: %p\n", p);
   p++;
   printf("valor de p++: %p\n", p);
+
   return 0;
 }
