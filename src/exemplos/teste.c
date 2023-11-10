@@ -3,31 +3,18 @@
 
 int main()
 {
+  double vetor[99999999];
 
-  int matrizA[4][4] = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1};
-  int matrizB[4][4] = {1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4};
-  int resultado[4][4];
-
-  for (int linha = 0; linha < 4; linha++)
+  for (int i = 0; i < 99999999; i++)
   {
-    for (int coluna = 0; coluna < 4; coluna++)
-    {
-      for (int k = 0; k < 4; k++)
-      {
-        resultado[linha][coluna] = resultado[linha][coluna] + matrizA[linha][k] * matrizB[k][coluna];
-      }
-    }
+    vetor[i] = i;
   }
 
-  for (int linha = 0; linha < 4; linha++)
+  for (int i = 0; i < 99999999; i++)
   {
-    printf("\n");
-    for (int coluna = 0; coluna < 4; coluna++)
-    {
-      printf("%4d", resultado[linha][coluna]);
-    }
-    printf("\n");
+    printf("%.2lf", vetor[i]);
   }
+  printf("oi");
 
   return 0;
 }
