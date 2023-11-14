@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 // Função para converter o número romano para decimal
 int romanoParaDecimal(char romano[])

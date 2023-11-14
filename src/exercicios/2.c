@@ -2,11 +2,9 @@
 
 typedef struct aluno
 {
-  char nome[50];
+  char nome[20];
   int matricula;
-  float nota1;
-  float nota2;
-  float nota3;
+  float nota1, nota2, nota3;
 } Aluno;
 
 int main()

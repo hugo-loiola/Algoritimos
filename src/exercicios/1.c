@@ -2,14 +2,10 @@
 
 int main()
 {
-  char caracter;
-  int inteiro;
-  float flutuante;
-  double dobro;
 
-  printf("Char: %d\n", sizeof(caracter));
-  printf("Int: %d\n", sizeof(inteiro));
-  printf("Float: %d\n", sizeof(flutuante));
-  printf("Double: %d\n", sizeof(dobro));
+  printf("Char: %d\n", sizeof(char));
+  printf("Int: %d\n", sizeof(int));
+  printf("Float: %d\n", sizeof(float));
+  printf("Double: %d\n", sizeof(double));
   return 0;
 }
