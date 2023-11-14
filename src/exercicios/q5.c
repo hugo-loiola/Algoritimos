@@ -1,20 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+int main()
+{
 
   int n;
-  do{
+  do
+  {
     printf("Insira um numero positivo maior que 0: ");
     scanf("%d", &n);
-  }while(n <=0);
+  } while (n <= 0);
 
-  int *vetor = (int *) malloc(n*sizeof(int));
+  int *vetor = (int *)malloc(n * sizeof(int));
   // Inserir valores no Array
-  for(int i = 0; i < n; i++)
+  for (int i = 0; i < n; i++)
   {
     printf("vetor[%d]: ", i);
     scanf("%d", &vetor[i]);
   }
+  // Mostrar os valores do Array
+  for (int i = 0; i < n; i++)
+  {
+    printf("vetor[%d]: %d\n", i, vetor[i]);
+  }
+
   return 0;
 }
