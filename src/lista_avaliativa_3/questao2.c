@@ -18,7 +18,7 @@ int main()
     tempo = i + 1;
     montante = aporte * pow(juros, tempo);
     total += montante;
-    printf("Montante ao fim do mes %d: %.2lf\n", i + 1, total);
+    printf("Montante ao fim do mes %d: R$ %.2lf\n", i + 1, total);
   }
 
   return 0;

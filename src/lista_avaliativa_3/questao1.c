@@ -50,22 +50,22 @@ int main()
   char numeroRomano[13];
 
   // Receber o número romano como entrada
-  printf("Digite o número romano (até 12 caracteres): ");
+
   scanf("%s", numeroRomano);
 
   // Calcular a representação decimal
   int decimal = romanoParaDecimal(numeroRomano);
 
   // Imprimir a representação binária
-  printf("Binário: ");
+  printf("%s na base 2: ", numeroRomano);
   decimalParaBinario(decimal);
   printf("\n");
 
   // Imprimir a representação decimal
-  printf("Decimal: %d\n", decimal);
+  printf("%s na base 10: %d\n", numeroRomano, decimal);
 
   // Imprimir a representação hexadecimal
-  printf("Hexadecimal: %X\n", decimal);
+  printf("%s na base 16: %X\n", numeroRomano, decimal);
 
   return 0;
 }
