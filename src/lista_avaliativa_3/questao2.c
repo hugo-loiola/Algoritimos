@@ -3,7 +3,7 @@
 
 int main()
 {
-  int mes;
+  int mes, tempo;
   double aporte, juros, montante, total = 0;
   // Quantidade de meses
   scanf("%d", &mes);
@@ -15,7 +15,8 @@ int main()
 
   for (int i = 0; i < mes; i++)
   {
-    montante = aporte * pow(juros, i + 1);
+    tempo = i + 1;
+    montante = aporte * pow(juros, tempo);
     total += montante;
     printf("Montante ao fim do mes %d: %.2lf\n", i + 1, total);
   }
