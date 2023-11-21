@@ -1,19 +1,23 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main()
 {
+  setlocale(LC_ALL, "");
   FILE *p;
+  char linha[30];
 
-  p = fopen("arquiv.txt", "a");
+  p = fopen("arquiv.txt", "r");
 
   if (p == NULL)
   {
     printf("erro ao abrir o arquivo!!!\n");
     return 1;
   }
-
-  fputs("12345\n", p);
-  fputs("56789\n", p);
+  while (fgets(linha, 20, p))
+  {
+    printf("%s", linha);
+  }
 
   fclose(p);
 
