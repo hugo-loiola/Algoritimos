@@ -12,5 +12,10 @@ int main()
     return 1;
   }
 
+  fputs("12345\n", p);
+  fputs("56789\n", p);
+
+  fclose(p);
+
   return 0;
 }
