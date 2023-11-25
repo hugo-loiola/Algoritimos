@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-
+// PROFESSOR NEM PRECISA CORRIGIR TA UMA MERDA
 int validar_placa(char *placa)
 {
   int i;
