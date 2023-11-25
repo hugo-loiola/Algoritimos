@@ -11,6 +11,7 @@ int main()
   scanf("%lf", &aporte);
   // Taxa de juros
   scanf("%lf", &juros);
+  // Transformar o juros em inteiro
   juros += 1;
 
   for (int i = 0; i < mes; i++)

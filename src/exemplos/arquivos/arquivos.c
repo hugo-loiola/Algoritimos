@@ -7,7 +7,7 @@ int main()
   FILE *p;
   char linha[30];
 
-  p = fopen("arquiv.txt", "r");
+  p = fopen("arquiv.txt", "a");
 
   if (p == NULL)
   {
