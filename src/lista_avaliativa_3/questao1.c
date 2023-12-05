@@ -68,6 +68,5 @@ int main()
   // Imprimir a representação hexadecimal
   printf("%s na base 16: %x\n", numeroRomano, decimal);
 
-
   return 0;
 }
